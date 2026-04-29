@@ -26,7 +26,6 @@
 
 ### 注意点 / トラブルシューティング
 
-- `if`/`elsif`/`else` ブロックは必ず `end` で閉じてください。過去に `else if` の書き方で `end` が足りず構文エラーが出る問題がありました。
 - `ruby` コマンドが動かない場合は rbenv 等の Ruby 環境を確認し、必要なら `rbenv install 3.3.3` → `rbenv global 3.3.3` → `rbenv rehash` を行ってください。
 
 ### 例
